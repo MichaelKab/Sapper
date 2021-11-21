@@ -31,8 +31,8 @@ WIN_IMG = "cup.jpg"
 WIN_TEXT = "Вы выиграли"
 FONT_SIZE = "14pt"
 DEFAULT_NAME = "default_name"
-# PERCENT_BOMBS = 0.15
-PERCENT_BOMBS = 0
+PERCENT_BOMBS = 0.15
+# PERCENT_BOMBS = 0
 CREATE_TABLE_HISTORY = """CREATE TABLE IF NOT EXISTS history 
                                         (id integer PRIMARY KEY,
                                         user_id,
